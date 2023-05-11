@@ -1,0 +1,33 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+form {
+    display: flex;
+    justify-content: center;
+    
+}
+form input{
+    width: 12%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 0.3rem;
+}
+form button{
+    width:60px;
+    border-radius:5px;
+    font-size: 90%;
+}
+ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.anchor {
+    margin: 0.5rem;
+}
+ul li.complete{
+    text-decoration: line-through;
+}
